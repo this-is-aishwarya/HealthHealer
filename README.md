@@ -1,4 +1,5 @@
-# HealthHealer: A website for easing clinical communication between people and doctors without actually visiting the hospital.
+# HealthHealer
+# A website for easing clinical communication between people and doctors without actually visiting the hospital.
 
 ## Objective
 The objective is to cut short the distance between hospitals and patients and to **build a complete one-stop solution for all healthcare consultancy needs**. Other than Covid-19, people might tend to get affected by other diseases as well. Hence it is really risky to visit hospitals during this pandemic. As a result it has been challenging even for the doctors and other professionals with clinical expertise to treat patients physically. HealthHealer is a platform that connects people with doctors/health workers and provides them with medical assistance without actually visiting the hospitals.

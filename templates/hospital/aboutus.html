@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="https://www.accountingprose.com/wp-content/uploads/2017/08/healthIcon.png">
+  <title>HealthHealer- AboutUs</title>
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+
+    .contain{
+          position: relative;
+          width: 1200px;
+          height: 300px;
+          margin: 50px auto;
+
+    }
+
+    .contain .box{
+          position: relative;
+          width:calc(400px - 30px);
+          height:calc(250px - 30px);
+          background: #fff;
+          float: left;
+          margin: 15px;
+          box-sizing: border-box;
+          overflow: hidden;
+          border-radius: 10px;
+    }
+
+    .contain .box .icon{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: #8a50bf;
+          transition: 0.5s;
+          z-index: 1;
+    }
+
+    .contain .box:hover .icon{
+          top: 20px;
+          left: calc(50% - 40px);
+          height: 80px;
+          width: 80px;
+          border-radius: 50%;
+
+    }
+
+    .contain .box .icon .fa{
+          position: absolute;
+          top: 50%;
+          left: 40%;
+          transform: translate(-50%,-50%);
+          font-size: 80px;
+          transition: 0.5s;
+          color: #fff;
+    }
+
+    .contain .box:hover .icon .fa{
+          font-size: 40px;
+
+    }
+    .contain .box .content{
+          position: absolute;
+          text-align: center;
+          padding: 20px;
+          top: 100px;
+          height: calc(100% - 100px);
+          box-sizing: border-box;
+          transition: 0.5s;
+          opacity: 0;
+    }
+
+    .contain .box:hover .content{
+          top: 100px;
+          opacity: 1;
+    }
+
+    .contain .box .content h3{
+          margin:0 0 10px;
+          padding: 0;
+          color: #fff;
+          font-size: 24px;
+          font-family: "Lucida Console";
+    }
+
+    .contain .box .content p{
+          margin:0;
+          padding: 0;
+          color: #fff;
+          font-family: "Lucida Console";
+    }
+
+    .contain .box:nth-child(2) .icon{
+          background: #319635;
+    }
+    .contain .box:nth-child(2) {
+          background: #4CAF50;
+    }
+
+    .contain .box:nth-child(3) .icon{
+          background: #d03850;
+    }
+    .contain .box:nth-child(3) {
+          background: #f54967;
+    }
+
+    .contain .box:nth-child(1) .icon{
+          background: #23798e;
+    }
+    .contain .box:nth-child(1) {
+          background: #328fa5;
+    }
+  </style>
+
+</head>
+
+<body>
+  {% include "hospital/navbar.html" %}
+  <br><br>
+  <center>
+    <h1 class='alert alert-success' style="margin-bottom:0px; background:#269e76; color:white;">About Us !</h1>
+  </center>
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px; background-color: #daf2ea;">
+    <center>
+    <h3 class="display-4" style="justify-content: center;">What is HealthHealer</h3>
+  </center>
+    <p class="lead">The objective is to cut short the distance between hospitals and patients and to build a complete one-stop solution for all healthcare consultancy needs. Other than Covid-19, people might tend to get affected by other diseases as well. Hence it is really risky to visit hospitals during this pandemic. As a result it has been challenging even for the doctors and other professionals with clinical expertise to treat patients physically. HealthHealer is a platform that connects people with doctors/health workers and provides them with medical assistance without actually visiting the hospitals.</p>
+    <hr class="my-4">
+
+    <div class="contain">
+          <div class="box">
+                <div class="icon"><i class="fa fa-comment" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                      <h3>Chat</h3>
+                      <p>Chat with us on our online chatbox and get all your queries answered by professionals. </p>
+                </div>
+          </div>
+          <div class="box">
+                <div class="icon"><i class="fa fa-clipboard" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                      <h3>Book Appointments</h3>
+                      <p>Book appointments with registered doctors/medical tests without waiting in queues.</p>
+                </div>
+          </div>
+          <div class="box">
+                <div class="icon"><i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                      <h3>Stay Safe</h3>
+                      <p>Access medical needs through our website. Stay Home. Stay Safe</p>
+                </div>
+          </div>
+    </div>
+
+    <!-- <p>Explore our Website.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/" role="button">HOME</a>
+    </p> -->
+  </div>
+  {% include "hospital/footer.html" %}
+</body>
+
+
+</html>

@@ -24,4 +24,4 @@ We aim to connect with small clinics, hospital groups, Labs and various treatmen
 5. **Get/Upload your reports**- Connect with nearby diagonstic centres and get the results directly uploaded on the site. Medical experts can access the reports when permission is given. Students generally have to present a medical certificate for any ill leaves they take and have to visit the doctor to get it done. With our application, they can request a certificate from the comfort of their homes with a verifiable authenticity.
 
 ## Snapshots
-[!Image1](home.png)
+![Image1](home.png)

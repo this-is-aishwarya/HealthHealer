@@ -22,3 +22,6 @@ We aim to connect with small clinics, hospital groups, Labs and various treatmen
 3. **Book appointments with doctors with registered doctors/medical tests at diagnostic centers**- Time is the most important asset. Seeing a doctor or visiting a diagnostic center generally is a time taking process. But, with this feature, we ensure that you don’t have to stand in long queues and wait for hours in the doctor’s clinic and diagnostic center.
 4. **Providing regular medicine/vaccination reminders**- Patients no longer need to remember the complex schedules at which a particular medicine/vaccine needs to be taken, as we will be taking care of that responsibility. The user just need to tell us the disease and we will be suggesting the doses accordingly.
 5. **Get/Upload your reports**- Connect with nearby diagonstic centres and get the results directly uploaded on the site. Medical experts can access the reports when permission is given. Students generally have to present a medical certificate for any ill leaves they take and have to visit the doctor to get it done. With our application, they can request a certificate from the comfort of their homes with a verifiable authenticity.
+
+## Snapshots
+[!Image1](home.png)
